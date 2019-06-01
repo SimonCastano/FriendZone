@@ -1,0 +1,145 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+    	<title>Frienzone Inicion</title>
+    	<meta charset="utf-8">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+  <div class="navbar-fixed ">
+    <nav>
+      <div class="nav-wrapper #455a64 blue-grey darken-2">
+        <img class="brand-logo center" src="img/logo.jpg" width="100" height="69">
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Inicio</a></li>
+         <li><a href="registrate.html">Registrate</a></li>
+          <li></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <script type="text/javascript">
+    window.onload = function() {
+  
+  document.onmousemove = function(e) {
+    
+    var x = -(e.clientX/10);
+    
+    var y = -(e.clientY/10);
+    
+    this.body.style.backgroundPosition = x + 'px ' + y + 'px';
+  };
+};
+  </script>
+  <style type="text/css">
+body {
+  background: url("img/fondo web.jpg");
+  background-size: 120% 120% ;
+}
+#info {
+  width: 400px;
+  text-align: center; background: #fff;
+  margin: 150px auto 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+  </style>
+  <section class="contenido">
+
+
+
+      <div class="input-field col s12">
+      	<a href="#modal1" class="btn tooltipped waves-effect waves-light btn modal-trigger" data-position="bottom" data-delay="50" data-tooltip="Iniciar Sesion">INICIA SESION	</a>
+      	 
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>INICIA SESION</h4>
+      <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div><div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+    </div>
+    </div>
+    <div class="modal-footer">
+    	<a class="waves-effect waves-light btn">INICIAR SESION</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">CERRAR</a>
+    </div>
+  </div>
+          
+          </div><br>
+
+        
+<img src="img/logo.jpg" >
+ </div>
+  </section>
+
+<article ><div style="text-align:center;padding:1em 0;"> <h2><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/country/co"><span style="color:gray;">Hora actual en</span><br /> TU PAIS</a></h2> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=large&timezone=America%2FBogota" width="100%" height="140" frameborder="0" seamless></iframe> </div></article>
+
+
+  <div class="container">
+    <div class="section">
+
+    
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">access_time</i></h2>
+            <h5 class="center">Uso de tiempo</h5>
+
+            <p class="light">Por tu salud y la de tu vida social real y existencial tenemos un reloj siempre contando para que te fijes el timepo que pierdes sin hacer nada .</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Registrate </h5>
+
+            <p class="light">Debes registrarte por que conoseras nuevos amigos y te mantendras en conmpañia y contacto con los que ya tienes</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">El modo de uso</h5>
+
+            <p class="light">Tenesmos muchas herramientas y servicios que te serviran en tu vida <strong>recuerda no cuesta nada si te registras.</strong></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ 
+
+
+    </body>
+  </html>
+      <script type="text/javascript"> $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+          </script>
